@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Add customer telephone in admin invoice</name>
+    <version>0.1</version>
+    <author>Dāvis Mošenkovs</author>
+    <link>https://github.com/DavisNT/OC-Invoice-Customer-Telephone</link>
+    <code>davisnt_invoicecustomerphone</code>
+    <file path="admin/view/template/sale/order_invoice.tpl">
+        <operation>
+            <search index="0"><![CDATA[
+            <?php } ?></td>
+            ]]></search>
+            <add position="replace"><![CDATA[
+            <?php } ?>
+            <b><?php echo $text_telephone; ?></b> <?php echo $order['telephone']; ?><br />
+            </td>
+            ]]></add>
+        </operation>
+    </file>
+</modification>
