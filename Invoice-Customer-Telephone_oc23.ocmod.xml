@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <modification>
     <name>Add customer telephone in admin invoice</name>
-    <version>0.1</version>
+    <version>0.1.1</version>
     <author>Dāvis Mošenkovs</author>
     <link>https://github.com/DavisNT/OC-Invoice-Customer-Telephone</link>
     <code>davisnt_invoicecustomerphone</code>

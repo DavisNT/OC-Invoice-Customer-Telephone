@@ -1,17 +1,19 @@
-OpenCart 2.3 Invoice Customer Telephone
+OpenCart 2.3/3.0 Invoice Customer Telephone
 ===============
-OpenCart 2.3 modification to display customer telephone in invoices
+OpenCart 2.3 and 3.0 modification to display customer telephone in invoices
 
 ## Introduction
 
 This modification changes invoices in OpenCart admin interface - adds customer's telephone in the header of the invoice.
 
-This is tested only on OpenCart 2.3.0.2.
+This is tested only on OpenCart 2.3.0.2 and OpenCart 3.0.3.8.
 
 ## Installation
 
+1. For OpenCart 3.0 inside the folder `Invoice-Customer-Telephone_oc30.ocmod` compress `install.xml` into `Invoice-Customer-Telephone_oc30.ocmod.zip`.
 1. Open Extensions Installer in OpenCart admin interface.
-1. Upload/install `Invoice-Customer-Telephone.ocmod.xml`.
+1. On OpenCart 2.3 upload/install `Invoice-Customer-Telephone_oc23.ocmod.xml`.
+1. On OpenCart 3.0 upload/install `Invoice-Customer-Telephone_oc30.ocmod.zip`.
 1. Open Modifications in OpenCart admin interface and click Refresh.
 
 ## Notices
